@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "outDir": "dist",
+        "sourceMap": true,
+        "paths": {
+          "@app/*": ["./src/*"]
+        },
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "lib": ["es2021"],
+        "target": "ES6",
+        "allowJs": true,
+        "declaration": true,
+        "typeRoots": ["./node_modules/@types", "./node_modules/@figma"],
+        "declarationMap": true,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true
+    },
+    "exclude": [
+        "node_module",
+        "webpack.config.ts",
+        "dist"
+    ],
+    "include": ["src/**/*"]
+}

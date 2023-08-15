@@ -1,0 +1,42 @@
+{
+  "name": "@lfcx/rnjsonpro",
+  "version": "1.0.3",
+  "description": "rnjsonpro",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/index.js",
+    "dist/**/*.d.ts",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "node ./setPropsFactory/index.js",
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production --define-process-env-node-env=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@codeup.aliyun.com:6418751be31aabe1f8c20338/libjson/rnjsonpro.git"
+  },
+  "keywords": [],
+  "author": "lzt",
+  "license": "ISC",
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.71.0",
+    "@types/lodash": "^4.14.195",
+    "clean-webpack-plugin": "^4.0.0",
+    "path": "^0.12.7",
+    "ts-loader": "^9.4.4",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "@lfcx/commonreactbuilder": "^1.0.5",
+    "@lfcx/elementtocode": "^1.0.6",
+    "child_process": "^1.0.2",
+    "@lfcx/elementtreetype": "^1.0.0",
+    "lodash": "^4.17.21"
+  }
+}
