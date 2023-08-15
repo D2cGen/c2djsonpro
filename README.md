@@ -28,7 +28,7 @@ export const propsFactory = (compoentTree: ComponentTreeType) => {
 ```
 
 
-## 输出json数据
+## 输出 DSL  json数据
 
 ```json
 {
