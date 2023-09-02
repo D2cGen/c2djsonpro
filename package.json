@@ -33,9 +33,9 @@
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
-    "@lfcx/commonreactbuilder": "^1.0.3",
-    "@lfcx/elementtocode": "^1.0.0",
-    "@lfcx/elementtreetype": "^1.0.0",
+    "@lfcx/commonreactbuilder": "^1.0.4",
+    "@lfcx/elementtocode": "^1.0.2",
+    "@lfcx/elementtreetype": "^1.0.3",
     "child_process": "^1.0.2",
     "lodash": "^4.17.21"
   }

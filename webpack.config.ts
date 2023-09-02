@@ -25,8 +25,8 @@ const config: Configuration = {
         path: path.resolve(__dirname, 'dist'),
         libraryTarget: 'commonjs',
         // libraryTarget: 'umd',
-        filename: "index.js" //使用[name]打包出来的js文件会分别按照入口文件配置的属性来命名
-
+        filename: "index.js", //使用[name]打包出来的js文件会分别按照入口文件配置的属性来命名
+        globalObject: 'this'
     },
     externals:[
         'lodash',

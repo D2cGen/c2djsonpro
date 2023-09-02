@@ -17,6 +17,7 @@ export default {
     output: {
         // 指定打包文件的目录
         libraryTarget: 'umd',
+        globalObject: 'this'
     },
     externals: [
         'lodash',
